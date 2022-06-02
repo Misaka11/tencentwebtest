@@ -78,7 +78,7 @@ export default {
       a.type = "text/javascript";
       a.async = true;
       a.id = "amazon-login-sdk";
-      a.src = "https://assets.loginwithamazon.com/sdk/na/login1.js";
+      a.src = "https://api-cdn.amazon.com/sdk/login1.js";
       d.getElementById("amazon-root").appendChild(a);
     })(document);
   },
